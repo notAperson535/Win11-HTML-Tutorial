@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Windows 11 in HTML Tutorial',
   tagline: 'A tutorial on how to create Windows 11 in HTML',
-  url: 'https://notaperson535.github.io',
-  baseUrl: '/Win11-HTML-Tutorial/',
+  url: 'https://win11-tutorial.notaperson535.is-a.dev',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
