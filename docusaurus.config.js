@@ -58,7 +58,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'start-here',
+            docId: 'basefiles',
             position: 'left',
             label: 'Docs',
           },
@@ -77,7 +77,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/start-here',
+                to: '/docs/basefiles',
               },
             ],
           },
