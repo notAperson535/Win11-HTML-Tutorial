@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Run it online',
-    Svg: require('@site/static/img/icon.svg').default,
+    Svg: require('@site/static/img/windows 11 logo.svg').default,
     description: (
       <>
         You can run a recreation of Windows 11 online.
