@@ -9,7 +9,7 @@ const config = {
   title: 'Windows 11 in HTML Tutorial',
   tagline: 'A tutorial on how to create Windows 11 in HTML',
   url: 'https://github.com',
-  baseUrl: '/Win11-HTML-Tutorial',
+  baseUrl: '/Win11-HTML-Tutorial/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
