@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - website
-  pull_request:
-    branches:
-      - website
       
   workflow_dispatch:
 
