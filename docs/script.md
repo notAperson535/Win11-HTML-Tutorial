@@ -1,6 +1,5 @@
 ---
 Title: Creating the script
-Permalink: /script/
 ---
 
 First, add the start menu taskbar icon and start menu to the script

@@ -1,6 +1,5 @@
 ---
 title: Working on the Base Files
-permalink: /basefiles/
 --- 
 
 First download the files from the `template` branch on github. It will provide all of the files necessary, aka the images.

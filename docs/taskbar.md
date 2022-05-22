@@ -1,6 +1,5 @@
 ---
 title: Creating the Taskbar
-permalink: /taskbar/
 --- 
 
 First, make a new div called `taskbar` and put the `taskbariconscenter` div inside of it

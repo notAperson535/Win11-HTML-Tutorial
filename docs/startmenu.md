@@ -1,6 +1,5 @@
 ---
 title: Creating the Start Menu
-permalink: /startmenu/
 --- 
 
 ### [Make sure you have done the base files first](/docs/basefiles/)

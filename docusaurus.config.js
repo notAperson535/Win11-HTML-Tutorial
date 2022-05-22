@@ -60,7 +60,7 @@ const config = {
             type: 'doc',
             docId: 'basefiles',
             position: 'left',
-            label: 'Docs',
+            label: 'Tutorial',
           },
           {
             href: 'https://github.com/notAperson535/Win11-HTML-Tutorial',
@@ -73,7 +73,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorial',
             items: [
               {
                 label: 'Tutorial',
