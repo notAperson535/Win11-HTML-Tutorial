@@ -77,4 +77,4 @@ Next, add the icons to the taskbar
 </div>
 ```
 
-### [Now, move on to create the script that brings everything together.](https://notaperson535.github.io/Win11-HTML-Tutorial/script)
+### [Now, move on to create the script that brings everything together.](/docs/script)

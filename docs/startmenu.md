@@ -3,7 +3,7 @@ title: Creating the Start Menu
 permalink: /startmenu/
 --- 
 
-### [Make sure you have done the base files first](https://notaperson535.github.io/Win11-HTML-Tutorial/basefiles/)
+### [Make sure you have done the base files first](/docs/basefiles/)
 
 First, create the center and startmenu div
 
@@ -100,4 +100,4 @@ Now it should look something like this:
 
 ![image](https://user-images.githubusercontent.com/95918679/168810127-43aafe50-df12-4ad8-b491-c04971201e6f.png)
 
-### [Now move on to create the taskbar](https://notaperson535.github.io/Win11-HTML-Tutorial/taskbar)
+### [Now move on to create the taskbar](/docs/taskbar)

@@ -53,4 +53,4 @@ body{
 
 ![image](https://user-images.githubusercontent.com/95918679/168868470-19dfc68b-34e9-46d3-bbe2-7987a869034e.png)
 
-### [Now move on to the start menu creation](https://notaperson535.github.io/Win11-HTML-Tutorial/startmenu)
+### [Now move on to the start menu creation](/docs/startmenu)
