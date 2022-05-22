@@ -1,5 +1,5 @@
 ---
-Title: Creating the script
+title: Creating the script
 ---
 
 First, add the start menu taskbar icon and start menu to the script
