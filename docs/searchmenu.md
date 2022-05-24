@@ -98,6 +98,7 @@ now add the css for those apps
 
 It should now look like this:
 
+![image](https://user-images.githubusercontent.com/95918679/170092773-d37991aa-3592-47f3-8fa5-7d4e7b9ad291.png)
 
 Next, add another search header, and put "Quick Searches" inside of it
 
@@ -141,5 +142,9 @@ add the css
   align-items: center;
 }
 ```
+
+It should look like this:
+
+![image](https://user-images.githubusercontent.com/95918679/170092584-583828fe-7b8c-46b1-a34c-27788f367fa6.png)
 
 And that's it! Next is creating the edge app. (Coming soon)
