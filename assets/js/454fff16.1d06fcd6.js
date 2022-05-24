@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[343],{2330:function(e){e.exports=JSON.parse('{"title":"Creating the basics","slug":"/category/creating-the-basics","permalink":"/docs/category/creating-the-basics","navigation":{"next":{"title":"Working on the Base Files","permalink":"/docs/basefiles"}}}')}}]);
