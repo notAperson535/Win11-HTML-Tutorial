@@ -70,4 +70,4 @@ window.addEventListener('mouseup', function(e) {
 
 The `&&`stands for `and`, so this script is saying if the startmenu and startbutton classes are not clicked, close the start menu.
 
-Great job! You completed the tutorial. I may add more in the future, so stay tuned! (Edge app coming soon)
+Great job! You completed the tutorial. I may add more in the future, so stay tuned! (Search menu and Edge coming soon!)
