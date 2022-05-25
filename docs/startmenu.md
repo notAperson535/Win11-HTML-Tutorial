@@ -26,7 +26,7 @@ Now style the css so that it is centered and blurred
   backdrop-filter: blur(20px); /* blurs the background */
   background-color: rgba(255,255,255,.80); /* makes the background white */
   bottom: 55px; /* positions it */
-  height: 650px;
+  height: 90%;
   width: 625px;
   border-radius: 8px; /* rounds the corners */
 }

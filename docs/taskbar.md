@@ -47,7 +47,7 @@ Next, add the icons to the taskbar
           <img class="taskbariconsimg" src="img/startbutton.png">
         </div>
 
-        <div class="taskbaricons">
+        <div class="taskbaricons searchbutton">
           <img class="taskbariconsimg" src="img/search.png">
         </div>
 

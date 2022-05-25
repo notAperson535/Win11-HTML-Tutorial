@@ -147,4 +147,45 @@ It should look like this:
 
 ![image](https://user-images.githubusercontent.com/95918679/170092584-583828fe-7b8c-46b1-a34c-27788f367fa6.png)
 
+Now we have to add some more code to the script
+
+```js
+let searchbutton = document.getElementsByClassName("searchbutton")[0]
+let searchmenu = document.getElementsByClassName("searchmenu")[0]
+```
+
+and now we have to do the same thing we did for the start menu
+
+we need to change this line in the searchmenu css section
+
+```css
+bottom: 55px;
+```
+
+To this line:
+
+```css
+bottom: -675px;
+```
+
+now go back to the script and add these lines
+
+```js
+searchbutton.addEventListener("click", ()=>{
+
+	if(searchmenu.style.bottom == "55px"){
+		searchmenu.style.bottom = "-675px"
+	}
+	else{
+		searchmenu.style.bottom = "55px"
+	}
+})
+
+window.addEventListener('mouseup', function(e) {
+    if (!event.target.closest(".searchmenu") && !event.target.closest(".searchbutton")){
+        searchmenu.style.bottom = "-675px";
+    }
+});
+```
+
 And that's it! Next is creating the edge app. (Coming soon)
