@@ -50,7 +50,16 @@ Next, we need to add the start menu contents. First add the divs
 ```
 
 Now add the css
+
 ```css
+.sTop{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
 .pinnedlabel{
   margin-top: -5px;
   margin-left: 45px;
@@ -93,6 +102,32 @@ Now put icons inside of the sApps div. Here is the format for each one. Remember
   <img src="img/edge.png"> <!-- App image -->
   <p class="startlabels" align="center"> Microsoft Edge </p> <!-- Visible App Name -->
 </div>
+```
+
+Next add the css for it
+
+```css
+.starticons img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+  width: 30px;
+}
+
+.starticons{
+  width: 100px;
+  font-size: 13px;
+}
+
+.starticons:hover{
+  background: white;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.startlabels{
+  margin-top: 3px
+}
 ```
 
 Now it should look something like this:
