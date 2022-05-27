@@ -28,6 +28,7 @@ const sidebars = {
             collapsed: false,
             items: [
                 'searchmenu',
+                'edgepart1',
             ],
           },
     
