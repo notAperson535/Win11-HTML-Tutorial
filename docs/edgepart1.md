@@ -1,5 +1,5 @@
 ---
-title: Creating Part 1
+title: Creating Edge Part 1
 ---
 
 First, create the edge app div
