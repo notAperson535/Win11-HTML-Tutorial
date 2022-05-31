@@ -44,35 +44,34 @@ Next, add the icons to the taskbar
 
 ```html
 <div class="taskbaricons startbutton">
-          <img class="taskbariconsimg" src="img/startbutton.png">
-        </div>
+  <img class="taskbariconsimg" src="img/startbutton.png">
+</div>
 
-        <div class="taskbaricons searchbutton">
-          <img class="taskbariconsimg" src="img/search.png">
-        </div>
+<div class="taskbaricons searchbutton">
+  <img class="taskbariconsimg" src="img/search.png">
+</div>
 
-        <div class="taskbaricons">
-          <img class="taskbariconsimg" src="img/taskview.png">
-        </div>
+<div class="taskbaricons">
+  <img class="taskbariconsimg" src="img/taskview.png">
+</div>
 
-        <div class="taskbaricons">
-          <img class="taskbariconsimg" src="img/chat.png">
-        </div>
+<div class="taskbaricons">
+  <img class="taskbariconsimg" src="img/chat.png">
+</div>
 
-        <div class="taskbaricons">
-          <img class="taskbariconsimg" src="img/explorer.png">
-          <div class="center"><div class="taskbariconhighlight"></div></div>
-        </div>
+<div class="taskbaricons">
+  <img class="taskbariconsimg" src="img/explorer.png">
+  <div class="center"><div class="taskbariconhighlight"></div></div>
+</div>
 
-        <div class="taskbaricons edgetaskbaricon">
-          <img class="taskbariconsimg" src="img/edge.png">
-          <div class="center"><div class="taskbariconhighlight"></div></div>
-        </div>
+<div class="taskbaricons edgetaskbaricon">
+  <img class="taskbariconsimg" src="img/edge.png">
+  <div class="center"><div class="taskbariconhighlight"></div></div>
+</div>
 
-        <div class="taskbaricons">
-          <img class="taskbariconsimg" src="img/store.ico">
-          <div class="center"><div class="taskbariconhighlight"></div></div>
-        </div>
+<div class="taskbaricons">
+  <img class="taskbariconsimg" src="img/store.ico">
+  <div class="center"><div class="taskbariconhighlight"></div></div>
 </div>
 ```
 
