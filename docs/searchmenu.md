@@ -77,7 +77,7 @@ and add up to 5 apps in the topapps section using this format, replacing ICON an
 
 ```html
 <div class="searchtopapp">
-    <img class="searchtopappslabel" src="ICON">
+    <img src="ICON">
     <p class="searchtopappslabel" align="center">NAME</p>
 </div>
 ```
@@ -93,6 +93,23 @@ now add the css for those apps
 .searchtopappslabel{
   margin: 0px;
   margin-top: 5px;
+}
+
+.searchtopapp{
+  font-size: 13px;
+  background: white;
+  border: solid 1px lightgray;
+  width: 100px;
+  margin-right: 5px;
+  margin-top: 12px;
+  padding: 18px 10px;
+  border-radius: 5px;
+}
+
+.searchtopapp img{
+  display: block;
+  margin: 0 auto;
+  width: 30px;
 }
 ```
 
@@ -129,7 +146,7 @@ Now put up to five of your favorite searches into the quicksearches section usin
 
 ```html
 <div class="quicksearch">
-  (Image Optional) TEXT
+  SVG TEXT
 </div>
 ```
 
@@ -165,7 +182,7 @@ bottom: 55px;
 To this line:
 
 ```css
-bottom: -675px;
+bottom: -95%;
 ```
 
 now go back to the script and add these lines
@@ -174,7 +191,7 @@ now go back to the script and add these lines
 searchbutton.addEventListener("click", ()=>{
 
 	if(searchmenu.style.bottom == "55px"){
-		searchmenu.style.bottom = "-675px"
+		searchmenu.style.bottom = "-95%"
 	}
 	else{
 		searchmenu.style.bottom = "55px"
@@ -183,7 +200,7 @@ searchbutton.addEventListener("click", ()=>{
 
 window.addEventListener('mouseup', function(e) {
     if (!event.target.closest(".searchmenu") && !event.target.closest(".searchbutton")){
-        searchmenu.style.bottom = "-675px";
+        searchmenu.style.bottom = "-95%";
     }
 });
 ```

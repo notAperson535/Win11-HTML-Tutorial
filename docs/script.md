@@ -15,7 +15,7 @@ Now add the event listener to trigger the start menu to open and close on the cl
 startbutton.addEventListener("click", ()=>{
 
 	if(startmenu.style.bottom == "55px"){
-		startmenu.style.bottom = "-675px"
+		startmenu.style.bottom = "-95%"
 	}
 	else{
 		startmenu.style.bottom = "55px"
@@ -34,14 +34,14 @@ bottom: 55px;
 To this line:
 
 ```css
-bottom: -675px;
+bottom: -95%;
 ```
 
 To solve the second problem, we need to add a mouse up event listener, which listens for any mouse up
 
 ```js
 window.addEventListener('mouseup', function(e) {
-        startmenu.style.bottom = "-675px";
+        startmenu.style.bottom = "-95%";
 });
 ```
 
@@ -50,7 +50,7 @@ Great, but now this will close the start menu before the icon can even open it, 
 ```js
 window.addEventListener('mouseup', function(e) {
     if (!event.target.closest(".startbutton")){
-        startmenu.style.bottom = "-675px";
+        startmenu.style.bottom = "-95%";
     }
 });
 ```
@@ -63,7 +63,7 @@ But now the start menu closes when you click inside of it, so we need to exclude
 ```js
 window.addEventListener('mouseup', function(e) {
     if (!event.target.closest(".startmenu") && !event.target.closest(".startbutton")){
-        startmenu.style.bottom = "-675px";
+        startmenu.style.bottom = "-95%";
     }
 });
 ```
