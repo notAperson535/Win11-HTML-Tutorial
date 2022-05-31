@@ -5,11 +5,11 @@ title: Creating the Search Menu
 First, create another div with a `center` class and a div with a `searchmenu` class inside of it. This will go below but not inside the startmenu div
 
 ```html
-<div class ="center">
-
-    <div class="searchmenu">
-
-    </div>
+<div class="center">
+	
+	<div class="searchmenu">
+	
+	</div>
 
 </div>
 ```
@@ -17,10 +17,10 @@ First, create another div with a `center` class and a div with a `searchmenu` cl
 Next, create a search bar
 
 ```html
-      <div class="searchbar">
-        <img src="img/search.png">
-        <input type="text">
-      </div>
+<div class="searchbar">
+  <img src="img/search.png">
+  <input type="text">
+</div>
 ```
 
 Next, add the base css for the search menu
@@ -53,13 +53,13 @@ Next, add the base css for the search menu
 Next, create a topapps header div and the topapps div
 
 ```html
-      <div class="searchheader">
-        Top Apps
-      </div>
+<div class="searchheader">
+  Top Apps
+</div>
 
-      <div class="searchtopapps">
+<div class="searchtopapps">
 
-      </div>
+</div>
 ```
 
 now the css,
@@ -128,9 +128,9 @@ and add the css
 Now put up to five of your favorite searches into the quicksearches section using this format
 
 ```html
-        <div class="quicksearch">
-          (Image Optional) TEXT
-        </div>
+<div class="quicksearch">
+  (Image Optional) TEXT
+</div>
 ```
 
 add the css
