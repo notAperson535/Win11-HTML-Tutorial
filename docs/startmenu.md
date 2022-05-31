@@ -29,6 +29,7 @@ Now style the css so that it is centered and blurred
   height: 90%;
   width: 625px;
   border-radius: 8px; /* rounds the corners */
+  z-index: 11000; /* puts it on top of everything */
 }
 ```
 

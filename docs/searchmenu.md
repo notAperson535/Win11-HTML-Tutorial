@@ -34,6 +34,7 @@ Next, add the base css for the search menu
   width: 625px;
   transition: all .2s cubic-bezier(.79,.14,.15,.86);
   border-radius: 8px; 
+  z-index: 11000;
 }
 
 .searchbar {
@@ -43,10 +44,23 @@ Next, add the base css for the search menu
   background-color: white;
   border-radius: 5px;
   border: 2px solid lightgray;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid #0067c0;
   display: flex;
   align-items: center;
   overflow: hidden;
+}
+
+.searchbar img{
+  width: 23px;
+  margin: 0px 15px;
+}
+
+.searchbar input{
+  outline: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
 }
 ```
 
