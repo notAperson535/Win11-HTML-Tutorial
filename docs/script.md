@@ -70,4 +70,10 @@ window.addEventListener('mouseup', function(e) {
 
 The `&&`stands for `and`, so this script is saying if the startmenu and startbutton classes are not clicked, close the start menu.
 
-Great job! You completed the tutorial. [Next up is the search menu](/docs/searchmenu.md)
+Now, we have to add a line to the start menu css to make it "slide"
+
+```css
+transition: all .2s cubic-bezier(.79,.14,.15,.86);
+```
+
+[Next is the search menu](/docs/searchmenu.md)
