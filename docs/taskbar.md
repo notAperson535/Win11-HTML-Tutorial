@@ -76,4 +76,21 @@ Next, add the icons to the taskbar
 </div>
 ```
 
+Now add the css
+
+```css
+.taskbariconsimg {
+  width: 25px;
+  transition: all .1s;
+}
+
+.taskbaricons{
+  margin: 0px 2.5px;
+  padding: 7px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+```
+
 ### [Now, move on to create the script that brings everything together.](/docs/script)
