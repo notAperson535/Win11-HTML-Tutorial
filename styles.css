@@ -11,183 +11,59 @@ body{
   padding: 0;
   font-family: 'Segoe UI Variable', sans-serif;
   user-select: none;
-  --fakeMica: #f3f3f3 radial-gradient(#eff4f9 75%,#f3f3f3 100%) no-repeat fixed;
 }
 
-.taskbar{
-  backdrop-filter: saturate(3) blur(20px);
-  background-color: rgba(255,255,255,.80);
-  width: 100%;
-  min-width: 100%;
-  position: absolute;
-  bottom: 0;
-  margin:0;
-  padding:0;
-  height: 48px;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 11000;
-}
-
-.widgetsmenuicon{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  z-index: 12000;
-  bottom: 0;
-  float: left;
-}
-
-.taskbariconscenter{
-  display: flex;
-}
-
-.taskbariconsright{
-  display: flex;
-  align-items: center;
-  z-index: 12000;
-  position: absolute;
-  bottom: 3;
-  right: 0;
-  float: right;
-}
-
-.actioncenter:hover{
-  background-color: white;
-  border-radius: 3px;
-}
-
-.actioncenter{
-  display: flex;
-  margin-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;;
-}
-
-.actioncenter img{
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-.taskbariconsright img{
-  height: 20px;
-}
-
-.timeanddate{
-  margin-right: 10px;
-  font-size: 13px;
-  text-align: right;
-  padding: 4px;
-  padding-left: 10px;
-}
-
-.timeanddate:hover{
-  background-color: white;
-  border-radius: 3px;
-}
-
-#clock{
-  margin: 0px;
-}
-
-#date{
-  margin: 0px;
-}
-
-.calendar{
-  position: absolute;
-  right: -655px;
-  bottom: 51;
-  border-radius: 5px;
-  overflow: hidden;
-  backdrop-filter: saturate(3) blur(20px);
-  background-color: rgba(255,255,255,.80);
-  z-index: 13000;
-  transition: all 0.2s ease-in;
-}
-
-.center{
+.center{ /* centers the div */
   display: flex;
   justify-content: center;
 }
 
-.taskbariconsimg {
-  width: 25px;
-  margin: 3px 5px;
-}
-
-.taskbaricons{
-  margin: 0px 7px;
-}
-
-.taskbariconhighlight{
-  margin-top: -1px;
-  height: 5px;
-  border-radius: 5px;
-  width: 25%;
-  background-color: blue;
-  opacity: 0;
-  transition: all .25s cubic-bezier(.85,.14,.14,.85), opacity 200ms linear;
-}
-
-.taskbaricons:hover{
-  margin: -5px 2px;
-  border: solid 5px white;
-  backdrop-filter: blur(20px);
-  background-color: rgba(255,255,255,.80);
-  border-radius:5px;
+.startmenu{
+  position: absolute; /* makes it movable */
+  backdrop-filter: blur(20px); /* blurs the background */
+  background-color: rgba(255,255,255,.80); /* makes the background white */
+  bottom: -95%; /* positions it */
+  height: 90%;
+  width: 625px;
+  transition: all .2s cubic-bezier(.79,.14,.15,.86);
+  border-radius: 8px; /* rounds the corners */
 }
 
 .sTop{
-   margin-top: 25px;
-   margin-bottom: 25px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pinnedlabel{
+  margin-top: -5px;
+  margin-left: 45px;
 }
 
 .allapps img{
   height: 20px;
-  border-radius: 4px;
+  border-radius: 4px; /* rounds the corners */
   margin-right: 45px;
 }
 
-.startmenu{
-  position: absolute;
-  backdrop-filter: blur(20px);
-  background-color: rgba(255,255,255,.80);
-  bottom: -675px;
-  height: 650px;
-  width: 625px;
-  transition: all 0.2s ease-in;
-  border-radius: 8px; 
-  z-index: 11000;
-}
-
-.pinnedlabel{
-  margin-left: 45px;
-  margin-bottom: 0px;
-  margin-top: -5px;
+.sAppscontainer{ /*centers the icons with a display:grid */
+  display: grid;
+  justify-items: center;
 }
 
 .sApps{
   position: absolute;
-}
-
-.startrow{
-  display: flex;
-  justify-content: center;
-  margin-left: 15px;
-  width: 595px;
-  max-width: 595px;
+  display: grid; /* makes it a grid */
+  grid-template-columns: auto auto auto auto auto auto; /* 6 columns */
 }
 
 .starticons img{
   display: block;
   margin: 0 auto;
   margin-top: 12px;
-  width:30px;
+  width: 30px;
 }
 
 .starticons{
@@ -205,46 +81,140 @@ body{
   margin-top: 3px
 }
 
+.taskbar{
+  -webkit-backdrop-filter: saturate(3) blur(20px);
+  backdrop-filter: saturate(3) blur(20px);
+  background-color: rgba(255,255,255,.80);
+  width: 100%;
+  min-width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin:0;
+  padding:0;
+  height: 48px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskbariconscenter{
+  display: flex;
+}
+
+.taskbariconsimg {
+  width: 25px;
+  transition: all .1s;
+}
+
+.taskbaricons{
+  margin: 0px 2.5px;
+  padding: 7px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
 .searchmenu{
   position: absolute;
-  bottom: -655px;
-  text-align: center;
-  transition: all 0.2s ease-in; 
-  z-index: 11000;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255,255,255,.80);
+  height: 90%;
+  width: 625px;
+  bottom: -95%;
+  transition: all .2s cubic-bezier(.79,.14,.15,.86);
+  border-radius: 8px; 
 }
 
-.searchmenu img{
-  height: 600;
-  border-radius: 8px;
-}
-
-.widgetsmenu{
-  position: absolute;
-  left: -1000px;
-  transition: all 0.2s ease-in; 
-  z-index: 10000;
-}
-
-.widgetsmenu img{
-  width: 575px;
-  border-radius: 8px;
-}
-
-.app {
-  position: fixed;
-  box-shadow: 1px 1px 50px #969696;
+.searchbar {
+  margin: 25px 20px 0px 20px; /* top, right, bottom, left */
+  height: 38px;
+  width: 580px;
+  background-color: white;
   border-radius: 5px;
+  border: 2px solid lightgray;
+  border-bottom: 2px solid var(--accent-color);
+  display: flex;
+  align-items: center;
   overflow: hidden;
-  width: 0%;
-  height: 0%;
-  opacity: 0;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  transition: all .25s cubic-bezier(.85,.14,.14,.85), opacity 200ms linear;
-  z-index: 1;
 }
 
+.searchheader{
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.searchtopapps{
+  margin: 0 20px;
+  display: flex;
+}
+
+.searchtopappslabel{
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.searchtopapp{
+  font-size: 13px;
+  background: white;
+  border: solid 1px lightgray;
+  width: 100px;
+  margin-right: 5px;
+  margin-top: 12px;
+  padding: 18px 10px;
+  border-radius: 5px;
+}
+
+.searchtopapp img{
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+}
+
+.quicksearches{
+  margin: 15px 15px;
+  width: 580px;
+}
+
+.quicksearch{
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.edgeapp {
+  --fakeMica: #f3f3f3 radial-gradient(#eff4f9 75%,#f3f3f3 100%) no-repeat fixed;
+  position: fixed;
+  box-shadow: 1px 10px 50px #969696;
+  border-radius: 10px;
+  border: 1.5px solid #B4B4B4;
+  background: var(--fakeMica);
+  overflow: hidden;
+  width: 60%;
+  height: 75%;
+  top: 8%;
+  left: 20%;
+}
+
+.edgeappheader{
+  display:flex;
+  justify-content: space-between;
+  max-height: 38px;
+  height: 38px;
+  min-height: 38px;
+  overflow: hidden;
+}
+
+.headerrightside {
+  display: flex;
+  align-items: center;
+}
+
+.headerrightside img{
+  width: 15px;
+  margin: 15px;
+}
 
 .headerleftside {
   font-size: 13px;
@@ -259,50 +229,19 @@ body{
   margin-right: 10px;
 }
 
-.appheader{
+.edgetab{
+  background-color: white;
+  box-shadow: 1px 3px 10px lightgray;
+  width: 200px;
   display:flex;
-  background: var(--fakeMica);
-  justify-content: space-between;
-  max-height: 30px;
-  height: 30px;
-  min-height: 30px;
-  overflow: hidden;
-}
-
-.appIframe{
-  height: calc(100% - 30px);
-}
-
-.headerrightside {
-  display: flex;
   align-items: center;
-}
-
-.headerrightside img{
-  width: 15px;
-  margin: 15px;
-  display: block;
-}
-
-.close:hover{
-  background: red;
-}
-
-.maximize:hover{
-  background: #c4c4c4;
-}
-
-.maxmin:hover{
-  background: #c4c4c4;
-}
-
-.minimize:hover{
-  background: #c4c4c4;
+  margin-left: 16px;
+  height: 30px;
+  border-radius: 3px;
 }
 
 .edgeurlarea{
-  background-color: #F7F7F7;
-  box-shadow: 1px 1px 100px #969696;
+  background: var(--fakeMica);
   display: flex;
   align-items: center;
   height: 35px;
@@ -315,26 +254,10 @@ body{
   margin: 10px;
 }
 
-.edgetab{
-  background-color: white;
-  width: 175px;
-  display:flex;
-  align-items: center;
-  margin-left: 16px;
-  height: 30px;
-  border-radius: 3px 3px 0px 0px;
-}
-
-.edgetab img{
-  width: 17px;
-  height: 17px;
-  margin-left: 10px;
-}
-
 .edgeurlbar{
   border: none;
   height: 30px;
-  box-shadow: .1px .1px 125px #969696;
+  box-shadow: .1px .1px 5px rgb(230, 230, 230);
   border-radius: 3px;
   margin: 15px;
   width: 100%;
@@ -345,57 +268,9 @@ body{
   outline: none;
 }
 
-#edgemaxmin{
-  display: none;
-}
-
-#wordmaxmin{
-  display: none;
-}
-
-#excelmaxmin{
-  display: none;
-}
-
-.maximizeandmaxmin{
-  display: flex;
-}
-
-.edgeprofilepicture{
-  border-radius: 15px;
-}
-
-.resizer {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-}
-.resizer.top-left {
-  top: -1px;
-  left: -1px;
-  cursor: nw-resize;
-}
-.resizer.top-right {
-  top: -1px;
-  right: -1px;
-  cursor: ne-resize;
-}
-
-.resizer.bottom-left {
-  bottom: -1px;
-  left: -1px;
-  cursor: sw-resize;
-}
-.resizer.bottom-right {
-  bottom: -1px;
-  right: -1px;
-  cursor: se-resize;
-}
-
-.wordtaskbaricon{
-  display: none;
-}
-
-.exceltaskbaricon{
-  display: none;
+.edgeappIframe{
+  height: calc(100% - 72px);
+  min-height: calc(100% - 72px);
+  width: 100%;
+  border-width: 0px;
 }
