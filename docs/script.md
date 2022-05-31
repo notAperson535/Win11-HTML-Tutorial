@@ -76,4 +76,4 @@ Now, we have to add a line to the start menu css to make it "slide"
 transition: all .2s cubic-bezier(.79,.14,.15,.86);
 ```
 
-[Next is the search menu](/docs/searchmenu.md)
+[Next is the search menu](/docs/searchmenu)
