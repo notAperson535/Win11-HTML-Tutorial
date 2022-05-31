@@ -21,7 +21,8 @@ Next, create the header, inside of the app div
 Now add the css
 
 ```css
-.app {
+.edgeapp {
+  --fakeMica: #f3f3f3 radial-gradient(#eff4f9 75%,#f3f3f3 100%) no-repeat fixed;
   position: fixed;
   box-shadow: 1px 10px 50px #969696;
   border-radius: 10px;
@@ -54,6 +55,7 @@ Next, add a headerleftside div and a headerrightside div to the edgeappheader
 <div class="headerleftside">
      
 </div>
+
 <div class="headerrightside">
   
 </div>
@@ -111,6 +113,18 @@ Now add the css
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.edgetab{
+  background-color: white;
+  box-shadow: 1px 3px 10px lightgray;
+  width: 200px;
+  display:flex;
+  align-items: center;
+  margin-left: 16px;
+  height: 30px;
+  border-radius: 3px;
+}  
+
 ```
 
 Next, add the edge url area div. This will add the icons and url bar.
