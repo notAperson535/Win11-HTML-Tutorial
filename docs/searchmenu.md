@@ -205,4 +205,4 @@ window.addEventListener('mouseup', function(e) {
 });
 ```
 
-And that's it! Next is creating the edge app. (Coming soon)
+[Next is creating the edge app](/docs/edgepart1/)
