@@ -219,4 +219,4 @@ window.addEventListener('mouseup', function(e) {
 });
 ```
 
-[Next is creating the edge app](/docs/edgepart1/)
+### [Next is creating the edge app](/docs/edgepart1/)
